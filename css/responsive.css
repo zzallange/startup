@@ -1,0 +1,170 @@
+@media (max-width: 1320px) {
+}
+
+@media (max-width: 768px) {
+  /* Default CSS */
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 50px 15px;
+  }
+  .feature,
+  .vision,
+  .faq,
+  .review,
+  .focus,
+  .guide,
+  .news {
+    display: none;
+  }
+  [class*="-inner"] {
+    width: 100%;
+  }
+  /* ########## Header ########## */
+  .header-inner {
+    width: 100%;
+  }
+  .logo {
+    margin-right: 20px;
+    float: right;
+  }
+  .gnb {
+    float: none;
+    position: fixed;
+    top: 0;
+    left: -270px;
+    padding: 70px 0 0 15px;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 2px 0 3px #ddd;
+    background: #fff;
+    transition: 0.5s;
+  }
+  .gnb a {
+    display: block;
+  }
+  .gnb.active {
+    left: 0;
+  }
+  /* Trigger */
+  .trigger {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .trigger:before {
+    content: "\e91c";
+    font-family: xeicon;
+    font-size: 28px;
+    text-align: center;
+  }
+  .trigger.active:before {
+    content: "\e9af";
+    font-family: xeicon;
+  }
+
+  /* ########## Section : welcome ########## */
+  .welcome {
+    height: 100vh;
+    background: #f9f9f9;
+  }
+  .welcome .slideshow {
+    display: none;
+  }
+  .welcome-heading {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .welcome-heading span {
+    font-size: 18px;
+  }
+  .welcome-heading h1 {
+    font-size: 40px;
+  }
+  .welcome-heading p {
+    padding: 0 30px;
+  }
+  /* Mouse Wheele */
+  .mouse {
+    bottom: 35px;
+  }
+  /* ########## Section : ceo-access ########## */
+  .ceo-access {
+    padding: 50px 15px 0;
+  }
+  .ceo-content > div,
+  .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .ceo-left {
+    padding-right: 0;
+  }
+  .ceo-right {
+    padding-top: 30px;
+  }
+  .ceo-right > div {
+    float: none;
+  }
+  .ceo-msg,
+  .ceo-photo {
+    width: 100%;
+  }
+  .access-content {
+    padding: 50px 0 0;
+  }
+  .access-left {
+    padding: 0;
+  }
+  .access-left h2 {
+    font-size: 26px;
+  }
+  .access-left .btn-download {
+    margin: 50px 0;
+  }
+  .access-left .btn-download img {
+    height: 50px;
+  }
+  .access-right img {
+    width: 100%;
+  }
+  /* ########## Section : banner ########## */
+  .banner {
+    background: linear-gradient(to right, #69acfe, #1dd1a1);
+  }
+  .banner-inner {
+    padding: 0;
+    width: 100%;
+  }
+  .banner-content > div {
+    float: none;
+    width: 100%;
+  }
+  .tab-btn {
+    text-align: center;
+  }
+  .tab-btn label {
+    margin: 0;
+    min-height: 180px;
+  }
+  .tab-btn label em {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .tab-btn label em img {
+    width: 60%;
+  }
+  .tabs {
+    padding: 20px;
+    text-align: center;
+  }
+  .tab h2 {
+    font-size: 26px;
+  }
+}
